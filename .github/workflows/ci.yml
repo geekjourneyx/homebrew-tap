@@ -22,8 +22,11 @@ jobs:
       - name: Set up Homebrew
         uses: Homebrew/actions/setup-homebrew@master
 
+      - name: Tap current repository
+        run: brew tap geekjourneyx/tap "${GITHUB_WORKSPACE}"
+
       - name: Install formula
-        run: brew install --formula ./Formula/md2wechat.rb
+        run: brew install geekjourneyx/tap/md2wechat
 
       - name: Smoke formula binary
         run: md2wechat version --json
