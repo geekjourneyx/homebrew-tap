@@ -23,7 +23,9 @@ jobs:
         uses: Homebrew/actions/setup-homebrew@master
 
       - name: Tap current repository
-        run: brew tap geekjourneyx/tap "${GITHUB_WORKSPACE}"
+        run: |
+          brew untap geekjourneyx/tap || true
+          brew tap --custom-remote geekjourneyx/tap "${GITHUB_WORKSPACE}"
 
       - name: Install formula
         run: brew install geekjourneyx/tap/md2wechat
