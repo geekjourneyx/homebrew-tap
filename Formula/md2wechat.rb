@@ -2,27 +2,27 @@ class Md2wechat < Formula
   desc "Convert Markdown to WeChat Official Account HTML"
   homepage "https://github.com/geekjourneyx/md2wechat-skill"
   license "MIT"
-  version "2.0.3"
+  version "2.0.4"
 
   on_macos do
     on_arm do
-      url "https://github.com/geekjourneyx/md2wechat-skill/releases/download/v2.0.3/md2wechat_Darwin_arm64.tar.gz"
-      sha256 "2e88bbcaf0deba0451ea1b0fdc819fc330e2e54d10825dd243e91223ff8c1bc4"
+      url "https://github.com/geekjourneyx/md2wechat-skill/releases/download/v2.0.4/md2wechat_Darwin_arm64.tar.gz"
+      sha256 "f3e7d1a3357a444469d5b5151aff3a8e7a63869204985528ca97a2ee9844f2c4"
     end
     on_intel do
-      url "https://github.com/geekjourneyx/md2wechat-skill/releases/download/v2.0.3/md2wechat_Darwin_x86_64.tar.gz"
-      sha256 "b65ea4670bb3e6169ee82eaee8d6bd9848c8285498568d1ce17c8dee4ce978df"
+      url "https://github.com/geekjourneyx/md2wechat-skill/releases/download/v2.0.4/md2wechat_Darwin_x86_64.tar.gz"
+      sha256 "d0d176db657ee1f5569e0185eb969c0c12c836c0b4f8ad58a186ab86d928e5a6"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/geekjourneyx/md2wechat-skill/releases/download/v2.0.3/md2wechat_Linux_arm64.tar.gz"
-      sha256 "8483cd00b8a00250415a30e6c024109cd7550bba584144a13b6f81100d15b24b"
+      url "https://github.com/geekjourneyx/md2wechat-skill/releases/download/v2.0.4/md2wechat_Linux_arm64.tar.gz"
+      sha256 "6a61d8ab5fd273a1971b1e72a6153c21acf4acc647b9411ca17359b6140c7d6c"
     end
     on_intel do
-      url "https://github.com/geekjourneyx/md2wechat-skill/releases/download/v2.0.3/md2wechat_Linux_x86_64.tar.gz"
-      sha256 "a576bbfbda2811f08b2604d395270291ed29a1905cd0b9ba33846492a26163ee"
+      url "https://github.com/geekjourneyx/md2wechat-skill/releases/download/v2.0.4/md2wechat_Linux_x86_64.tar.gz"
+      sha256 "7349b654d497ea93514e7e8269bed3149c1c08d908476592b0928ea8304748c1"
     end
   end
 
