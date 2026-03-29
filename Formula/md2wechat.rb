@@ -7,22 +7,22 @@ class Md2wechat < Formula
   on_macos do
     on_arm do
       url "https://github.com/geekjourneyx/md2wechat-skill/releases/download/v2.0.6/md2wechat_Darwin_arm64.tar.gz"
-      sha256 "ca255916a8739194b2c1fca22998023c399c2df86faf8cf36f7c71af5947c826"
+      sha256 "2b6f225a85e8e990426d132a4d19f893d435f6cf6b9682493d5952eac168937b"
     end
     on_intel do
       url "https://github.com/geekjourneyx/md2wechat-skill/releases/download/v2.0.6/md2wechat_Darwin_x86_64.tar.gz"
-      sha256 "79cf439ae925cbe5927d7695a1ded1630920b2a97cbbb0b90bcc2ae198cf9bb2"
+      sha256 "9957d138c84d77f0e174d8f68a1ce84ea9fe4f1d4b46814680304254e6a83e73"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/geekjourneyx/md2wechat-skill/releases/download/v2.0.6/md2wechat_Linux_arm64.tar.gz"
-      sha256 "0f91744bb78047c89834ff2224311f2c6454c170db431802d45bf33bb3fe4bc7"
+      sha256 "f091918eaf574f48f0b3b504c42c5152727eacb2d80618869806108737aa38db"
     end
     on_intel do
       url "https://github.com/geekjourneyx/md2wechat-skill/releases/download/v2.0.6/md2wechat_Linux_x86_64.tar.gz"
-      sha256 "9bb34c483d95570eed8ba5ce44896b3239be05ddb8eb727991f282cfd0f2365b"
+      sha256 "ab612f1c6e02a1ce46381ae5c70b444fee4720144374e752f93c69353d62ddb8"
     end
   end
 
